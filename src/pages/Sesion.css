@@ -1,0 +1,88 @@
+#content {
+  width: 100%;
+  height: min-content;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#head {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form-num {
+  width: 60%;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #aaa;
+  border: 10px solid #005;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#form-num div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inpt-n {
+  width: 48%;
+  margin: 10px 0;
+  font-size: 25px;
+  border: 2px solid #005;
+}
+
+.btn-n {
+  padding: 5px 10px;
+  font-size: 22px;
+  margin: 10px;
+  border: 5px solid #005;
+  background-color: #36b;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.btn-n:hover {
+  background-color: #3af;
+  cursor: pointer;
+}
+
+.btn-d{
+  background-color: #b23;
+}
+
+.btn-d:hover {
+  background-color: #f43;
+}
+/* -------------------------- */
+#tabla {
+  margin: 40px;
+  width: 800px;
+  background-color: #aaa;
+  border: 10px solid #005;
+}
+#tabla .headT{
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  border: 5px solid #005;
+  height: 35px;
+  background-color: #555;
+  color: #fff;
+}
+#tabla .gridD{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  height: 30px;
+  background-color: #888;
+  border: 5px solid #005;
+}
